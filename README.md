@@ -33,5 +33,5 @@ The **Futurama App** is a sleek and modern application built using **Jetpack Com
 ## **Installation**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/futurama-app.git
+   git clone https://github.com/Shihabagent47/Futurama-Kotlin-Compose-App.git
    cd futurama-app
