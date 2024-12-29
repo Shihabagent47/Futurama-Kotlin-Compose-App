@@ -13,8 +13,7 @@ class CharactersViewModel: ViewModel() {
 
     private val _characters=MutableLiveData<CharactersDataResponse>()
 
-    val characters: LiveData<CharactersDataResponse>
-        get() = _characters
+    val characters: LiveData<CharactersDataResponse> = _characters
 
     fun getCharacters(){
         viewModelScope.launch {

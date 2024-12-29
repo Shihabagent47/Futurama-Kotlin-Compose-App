@@ -25,9 +25,11 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-        Surface (modifier = Modifier.fillMaxSize()) {
-            CharacterComposable(viewModel =viewModel)
-        }
+            FuturamaTheme {
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    CharacterComposable(viewModel)
+                }
+            }
         }
     }
 }
