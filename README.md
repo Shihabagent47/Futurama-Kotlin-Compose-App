@@ -1,4 +1,3 @@
-![futurama_sample1](https://github.com/user-attachments/assets/4c923a4d-9f93-461a-bfd6-05f72167d54c)
 Futurama App
 Overview
 The Futurama App is a sleek and modern application built using Jetpack Compose and the MVVM architecture. It provides fans of the popular TV show Futurama with detailed information about characters, episodes, and other exciting content.
@@ -18,7 +17,7 @@ Dependency Injection: Hilt
 State Management: StateFlow
 Image Loading: Coil
 Screenshots
-
+<img src="https://github.com/user-attachments/assets/4c923a4d-9f93-461a-bfd6-05f72167d54c" alt="Futurama App Screenshot" width="500">
 Installation
 Clone the repository:
 bash
@@ -32,7 +31,7 @@ The app uses Retrofit to fetch data from a Futurama API.
 ViewModel manages the UI state and interacts with the repository layer.
 Jetpack Compose renders the UI, providing a reactive and declarative user interface.
 Project Structure
-bash
+plaintext
 Copy code
 📂 futurama-app
 ├── 📂 data         # Data layer (API, models, repositories)
